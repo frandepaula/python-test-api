@@ -27,3 +27,23 @@ Como entregar este teste
 -----
 
 Você deve forkar este projeto em sua própria conta do GitHub e fazer o commit em seu próprio repositório.
+
+Execução
+-----
+
+1. Primeiro, crie um ambiente virtual para o projeto. No terminal, dentro da pasta do seu projeto, execute:
+
+   ```bash
+   python3 -m venv venv
+2. Ative o ambiente virtual:
+
+   ```bash
+   source venv/bin/activate (no linux)
+   .\venv\Scripts\activate (no windows)
+3. Executar a API localmente:
+
+   ```bash
+   python3 app.py
+
+4. Acessar via https://python-test-api-beta.vercel.app ou endereço http://127.0.0.1:5000/{cpf}:
+
